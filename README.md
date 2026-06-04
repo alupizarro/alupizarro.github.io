@@ -11,7 +11,7 @@
 Este proyecto contiene mi portafolio personal, desplegado mediante **GitHub Pages**. En él centralizo y presento los conceptos lógicos, técnicos y de diseño que vengo desarrollando desde el inicio de mi carrera.
 
 ## Enlace del Sitio Web
-Puedes navegar por mi página web en vivo aquí: 👉 **[https://github.io](https://github.io)**
+Puedes navegar por mi página web en vivo aquí: 👉 https://alupizarro.github.io
 
 ## Repositorios y Trabajos Destacados
 1. **[Sistema_de_reserva_de_hotel](https://github.com)**: Proyecto grupal donde colaboré activamente aplicando flujos de trabajo en equipo y control de versiones con Git.
