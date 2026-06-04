@@ -1,87 +1,244 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandra Pizarro - Estudiante Full Stack UPC</title>
+    <title>Alejandra Pizarro | Portfolio Académico y Profesional</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #fdfbf7; color: #2e1065; }
-        header { background: #f3e8ff; color: #4c1d95; padding: 3.5rem 1rem; text-align: center; border-bottom: 3px solid #e9d5ff; }
-        header h1 { margin: 0; font-size: 2.6rem; font-weight: 700; color: #4c1d95; }
-        header p { margin: 12px 0 0; color: #6d28d9; font-size: 1.2rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
-        header small { display: block; margin-top: 12px; color: #7c3aed; font-size: 0.95rem; }
-        section { max-width: 800px; margin: 2.5rem auto; padding: 2rem; background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(109, 40, 217, 0.04); border: 1px solid #fae8ff; }
-        h2 { color: #4c1d95; border-bottom: 2px solid #f3e8ff; padding-bottom: 10px; font-size: 1.5rem; }
-        .tech-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
-        .tech-badge { background: #faf5ff; color: #6d28d9; padding: 7px 14px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; border: 1px solid #e9d5ff; }
-        .project-card { background: #fffdfa; border-left: 5px solid #c084fc; padding: 20px; margin: 20px 0; border-radius: 0 12px 12px 0; border-top: 1px solid #f3e8ff; border-right: 1px solid #f3e8ff; border-bottom: 1px solid #f3e8ff; }
-        .project-card h3 { margin: 0 0 8px 0; font-size: 1.15rem; color: #4c1d95; }
-        .project-card span { display: inline-block; background: #f3e8ff; color: #6d28d9; font-size: 0.75rem; padding: 3px 10px; border-radius: 6px; font-weight: bold; margin-bottom: 10px; }
-        .links { display: flex; gap: 25px; margin-top: 15px; flex-wrap: wrap; }
-        .links a { color: #7c3aed; font-weight: 600; text-decoration: none; border-bottom: 2px solid transparent; transition: all 0.2s; }
-        .links a:hover { color: #4c1d95; border-bottom: 2px solid #c084fc; }
-    </style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #fdfbf7;
+            color: #2e1065;
+        }
+
+```
+    header {
+        background: #f3e8ff;
+        color: #4c1d95;
+        padding: 3.5rem 1rem;
+        text-align: center;
+        border-bottom: 3px solid #e9d5ff;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.6rem;
+        font-weight: 700;
+        color: #4c1d95;
+    }
+
+    header p {
+        margin: 12px 0 0;
+        color: #6d28d9;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    header small {
+        display: block;
+        margin-top: 12px;
+        color: #7c3aed;
+        font-size: 0.95rem;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 2.5rem auto;
+        padding: 2rem;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(109, 40, 217, 0.04);
+        border: 1px solid #fae8ff;
+    }
+
+    h2 {
+        color: #4c1d95;
+        border-bottom: 2px solid #f3e8ff;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+    }
+
+    .tech-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .tech-badge {
+        background: #faf5ff;
+        color: #6d28d9;
+        padding: 7px 14px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: 1px solid #e9d5ff;
+    }
+
+    .project-card {
+        background: #fffdfa;
+        border-left: 5px solid #c084fc;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 0 12px 12px 0;
+        border-top: 1px solid #f3e8ff;
+        border-right: 1px solid #f3e8ff;
+        border-bottom: 1px solid #f3e8ff;
+    }
+
+    .project-card h3 {
+        margin: 0 0 8px 0;
+        font-size: 1.15rem;
+        color: #4c1d95;
+    }
+
+    .project-card span {
+        display: inline-block;
+        background: #f3e8ff;
+        color: #6d28d9;
+        font-size: 0.75rem;
+        padding: 3px 10px;
+        border-radius: 6px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .project-card a {
+        color: #7c3aed;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .project-card a:hover {
+        color: #4c1d95;
+    }
+
+    .links {
+        display: flex;
+        gap: 25px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+
+    .links a {
+        color: #7c3aed;
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s;
+    }
+
+    .links a:hover {
+        color: #4c1d95;
+        border-bottom: 2px solid #c084fc;
+    }
+</style>
+```
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Alejandra Pizarro</h1>
-        <p>Estudiante de Programación Full Stack</p>
-        <small>Universidad Provincial de Córdoba (UPC) | Sede Capilla del Monte</small>
-    </header>
+<header>
+    <h1>Alejandra Pizarro</h1>
+    <p>Estudiante de Programación Full Stack</p>
+    <small>Universidad Provincial de Córdoba (UPC) | Sede Capilla del Monte</small>
+</header>
 
-    <section id="sobre-mi">
-        <h2>Sobre Mí</h2>
-        <p>Con más de 16 años de trayectoria liderando la administración integral de establecimientos hoteleros, tomé la decisión de expandir mis fronteras profesionales hacia el desarrollo de software. Actualmente curso la carrera de Programación Full Stack en la UPC (Sede Capilla del Monte). Mi objetivo es fusionar la excelencia operativa hotelera con la tecnología, diseñando sistemas eficientes y liderando la transformación digital de la industria.</p>
-    </section>
+<section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>
+        Con más de 16 años de trayectoria liderando la administración integral de establecimientos hoteleros, tomé la decisión de expandir mis fronteras profesionales hacia el desarrollo de software. Actualmente curso la carrera de Programación Full Stack en la UPC (Sede Capilla del Monte). Mi objetivo es fusionar la excelencia operativa hotelera con la tecnología, diseñando sistemas eficientes y liderando la transformación digital de la industria.
+    </p>
+</section>
 
-    <section id="tecnologias">
-        <h2>Tecnologías y Herramientas</h2>
-        <p>Herramientas con las que vengo trabajando este año en la cursada:</p>
-        <div class="tech-container">
-            <span class="tech-badge">PSeInt (Lógica)</span>
-            <span class="tech-badge">Node.js</span>
-            <span class="tech-badge">PostgreSQL</span>
-            <span class="tech-badge">GitHub & Git</span>
-            <span class="tech-badge">Visual Studio Code</span>
-            <span class="tech-badge">Cursor (AI Editor)</span>
-            <span class="tech-badge">Google Colab</span>
-        </div>
-    </section>
+<section id="tecnologias">
+    <h2>Tecnologías y Herramientas</h2>
+    <p>Herramientas con las que vengo trabajando durante mi formación académica:</p>
 
-    <section id="proyectos">
-        <h2>Mis Repositorios y Proyectos</h2>
-        
-        <div class="project-card">
-            <span>Proyecto Grupal / Colaboración</span>
-            <h3>Sistema_de_reserva_de_hotel</h3>
-            <p>Trabajo en equipo donde colaboré en el desarrollo y control de versiones para un sistema de reservas de hotel.</p>
-            <a href="https://github.com" target="_blank">Ver Repositorio de Colaboración →</a>
-        </div>
+```
+<div class="tech-container">
+    <span class="tech-badge">PSeInt</span>
+    <span class="tech-badge">Java</span>
+    <span class="tech-badge">Node.js</span>
+    <span class="tech-badge">PostgreSQL</span>
+    <span class="tech-badge">SQL</span>
+    <span class="tech-badge">Git</span>
+    <span class="tech-badge">GitHub</span>
+    <span class="tech-badge">GitHub Pages</span>
+    <span class="tech-badge">UML</span>
+    <span class="tech-badge">Visual Studio Code</span>
+    <span class="tech-badge">Cursor AI</span>
+    <span class="tech-badge">Google Colab</span>
+</div>
+```
 
-        <div class="project-card">
-            <span>Diseño y Arquitectura</span>
-            <h3>Sistema-Reserva-Hotel-Diagrama-de-Clases-UML</h3>
-            <p>Modelado y estructura inicial mediante diagramas de clases UML para la lógica del sistema hotelero.</p>
-            <a href="https://github.com" target="_blank">Ver Repositorio →</a>
-        </div>
+</section>
 
-        <div class="project-card">
-            <span>Análisis / Ensayo Académico</span>
-            <h3>Emprendurismo-El-dilema-de-redes-sociales</h3>
-            <p>Repositorio dedicado al análisis del impacto tecnológico, debate y ecosistemas digitales en la sociedad.</p>
-            <a href="https://github.com" target="_blank">Ver Repositorio →</a>
-        </div>
-    </section>
+<section id="proyectos">
+    <h2>Mis Repositorios y Proyectos</h2>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <div class="links">
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
-            <a href="mailto:alejandranoemipizarro.sedecdelmonte@upc.edu.ar">Enviar un Correo</a>
-        </div>
-    </section>
+```
+<div class="project-card">
+    <span>Modelado UML y Diseño de Software</span>
+    <h3>1. Sistema-Reserva-Hotel-Diagrama-de-Clases-UML</h3>
+    <p>
+        Proyecto académico enfocado en el análisis y diseño de un sistema de gestión hotelera mediante diagramas UML. Incluye la identificación de clases, atributos, métodos y relaciones entre los distintos componentes del sistema.
+    </p>
+    <a href="https://github.com/alupizarro/Sistema-Reserva-Hotel-Diagrama-de-Clases-UML" target="_blank">
+        Ver repositorio →
+    </a>
+</div>
+
+<div class="project-card">
+    <span>Investigación y Análisis</span>
+    <h3>2. Emprendurismo-El-dilema-de-redes-sociales</h3>
+    <p>
+        Trabajo de investigación y análisis sobre el impacto de las redes sociales en la sociedad actual, abordando aspectos tecnológicos, éticos y sociales relacionados con el entorno digital.
+    </p>
+    <a href="https://github.com/alupizarro/Emprendurismo-El-dilema-de-redes-sociales" target="_blank">
+        Ver repositorio →
+    </a>
+</div>
+
+<div class="project-card">
+    <span>Proyecto Grupal de Desarrollo</span>
+    <h3>3. Sistema_de_reserva_de_hotel</h3>
+    <p>
+        Proyecto colaborativo orientado al desarrollo de un sistema de reservas hoteleras, incluyendo gestión de clientes, habitaciones, reservas, estados, check-in y check-out.
+    </p>
+    <a href="https://github.com/alupizarro/Sistema_de_reserva_de_hotel" target="_blank">
+        Ver repositorio →
+    </a>
+</div>
+
+<div class="project-card">
+    <span>Portafolio Web</span>
+    <h3>4. alupizarro.github.io</h3>
+    <p>
+        Sitio web personal desarrollado y publicado mediante GitHub Pages para presentar proyectos, conocimientos y experiencias adquiridas durante la carrera.
+    </p>
+    <a href="https://github.com/alupizarro/alupizarro.github.io" target="_blank">
+        Ver repositorio →
+    </a>
+</div>
+```
+
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <div class="links">
+        <a href="https://github.com/alupizarro" target="_blank">GitHub</a>
+        <a href="mailto:alejandranoemipizarro.sedecdelmonte@upc.edu.ar">Correo Electrónico</a>
+    </div>
+</section>
 
 </body>
 </html>
