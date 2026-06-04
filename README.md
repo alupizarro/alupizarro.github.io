@@ -65,3 +65,15 @@ Sitio web personal desarrollado y publicado mediante GitHub Pages. Este proyecto
 * UML
 * Diagramas de Casos de Uso
 * Diagramas de Clases
+
+---
+
+## Contacto
+
+Si deseas conocer más sobre mis proyectos, formación o experiencia profesional, puedes contactarme a través de los siguientes medios:
+
+- GitHub: https://github.com/alupizarro
+- LinkedIn: https://www.linkedin.com/in/alejandra-pizarro-/
+- Correo: alejandranoemipizarro.sedecdelmonte@upc.edu.ar
+
+---
