@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Alu Pizarro - Portafolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandra Pizarro - Estudiante Full Stack UPC</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f8f9fa; color: #212529; }
+        header { background: #0f172a; color: #fff; padding: 3rem 1rem; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { margin: 10px 0 0; color: #38bdf8; font-size: 1.2rem; font-weight: 500; }
+        header small { display: block; margin-top: 10px; color: #94a3b8; }
+        section { max-width: 800px; margin: 2rem auto; padding: 2rem; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        h2 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+        .tech-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+        .tech-badge { background: #f1f5f9; color: #334155; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: 500; border: 1px solid #e2e8f0; }
+        .project-card { background: #f8f9fa; border-left: 4px solid #38bdf8; padding: 15px; margin: 15px 0; border-radius: 0 8px 8px 0; }
+        .project-card h3 { margin: 0 0 8px 0; font-size: 1.1rem; color: #1e293b; }
+        .project-card span { display: inline-block; background: #e0f2fe; color: #0369a1; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; font-weight: bold; margin-bottom: 8px; }
+        .links { display: flex; gap: 20px; margin-top: 15px; flex-wrap: wrap; }
+        .links a { color: #0284c7; font-weight: 600; text-decoration: none; }
+        .links a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-<h1>Alu Pizarro</h1>
 
-<h2>Sobre mí</h2>
-<p>Estudiante de Programación interesado en el desarrollo de software, bases de datos y trabajo colaborativo con Git y GitHub.</p>
+    <header>
+        <h1>Alejandra Pizarro</h1>
+        <p>Estudiante de Programación Full Stack</p>
+        <small>Universidad Provincial de Córdoba (UPC) | Sede Capilla del Monte</small>
+    </header>
 
-<h2>Tecnologías</h2>
-<ul>
-<li>Java</li>
-<li>SQL</li>
-<li>Git</li>
-<li>GitHub</li>
-<li>UML</li>
-</ul>
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy de Capilla del Monte, Córdoba. Este año inicié mi formación en desarrollo de software en la UPC. Me entusiasma aprender la lógica detrás del código, diseñar estructuras lógicas y colaborar en proyectos grupales, aplicando control de versiones desde el primer día.</p>
+    </section>
 
-<h2>Proyectos</h2>
+    <section id="tecnologias">
+        <h2>Tecnologías y Herramientas</h2>
+        <p>Herramientas con las que vengo trabajando este año en la cursada:</p>
+        <div class="tech-container">
+            <span class="tech-badge">PSeInt (Lógica)</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">GitHub & Git</span>
+            <span class="tech-badge">Visual Studio Code</span>
+            <span class="tech-badge">Cursor (AI Editor)</span>
+            <span class="tech-badge">Google Colab</span>
+        </div>
+    </section>
 
-<h3>Sistema de Reserva de Hotel - Diagrama de Clases UML</h3>
-<p>
-Proyecto académico orientado al análisis y diseño de un sistema de gestión hotelera.
-Incluye modelado UML, identificación de clases, atributos, métodos y relaciones
-entre entidades como reservas, clientes, habitaciones, recepcionistas y administradores.
-Desarrollado utilizando Git y GitHub para el trabajo colaborativo.
-</p>
+    <section id="proyectos">
+        <h2>Mis Repositorios y Proyectos</h2>
+        
+        <div class="project-card">
+            <span>Proyecto Grupal / Colaboración</span>
+            <h3>Sistema_de_reserva_de_hotel</h3>
+            <p>Trabajo en equipo donde colaboré en el desarrollo y control de versiones para un sistema de reservas de hotel.</p>
+            <a href="https://github.com" target="_blank">Ver Repositorio de Colaboración →</a>
+        </div>
 
-<h3>Emprendedurismo - El Dilema de las Redes Sociales</h3>
-<p>
-Trabajo de análisis sobre el impacto de las redes sociales en la sociedad, abordando
-aspectos relacionados con la tecnología, el comportamiento de los usuarios, la ética
-digital y los desafíos que enfrentan los emprendimientos tecnológicos en la actualidad.
-</p>
+        <div class="project-card">
+            <span>Diseño y Arquitectura</span>
+            <h3>Sistema-Reserva-Hotel-Diagrama-de-Clases-UML</h3>
+            <p>Modelado y estructura inicial mediante diagramas de clases UML para la lógica del sistema hotelero.</p>
+            <a href="https://github.com" target="_blank">Ver Repositorio →</a>
+        </div>
+
+        <div class="project-card">
+            <span>Análisis / Ensayo Académico</span>
+            <h3>Emprendurismo-El-dilema-de-redes-sociales</h3>
+            <p>Repositorio dedicado al análisis del impacto tecnológico, debate y ecosistemas digitales en la sociedad.</p>
+            <a href="https://github.com" target="_blank">Ver Repositorio →</a>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="links">
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="mailto:alejandranoemipizarro.sedecdelmonte@upc.edu.ar">Enviar un Correo</a>
+        </div>
+    </section>
+
+</body>
+</html>
