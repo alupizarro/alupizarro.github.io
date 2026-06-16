@@ -1,5 +1,4 @@
 # Trabajo Final de Emprenderurismo
-
 # Portafolio de Presentación Académica
 ## Docente: Christian Di Guardia
 
