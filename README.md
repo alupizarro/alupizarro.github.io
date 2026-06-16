@@ -1,5 +1,5 @@
 # Trabajo Final de Emprenderurismo
-# Portafolio de Presentación Académica
+Portafolio de Presentación Académica
 ## Docente: Christian Di Guardia
 
 ## Datos de la Alumna
