@@ -76,7 +76,7 @@ Si deseas conocer más sobre mis proyectos, formación o experiencia profesional
 - GitHub: https://github.com/alupizarro
 - Portfolio: https://alupizarro.github.io
 - LinkedIn: https://www.linkedin.com/in/alejandra-pizarro-/
-- https://github.com/alupizarro/alupizarro.github.io
-- Correo: alejandranoemipizarro.sedecdelmonte@upc.edu.ar
 - Repositorio del Portfolio: https://github.com/alupizarro/alupizarro.github.io
+- Correo: alejandranoemipizarro.sedecdelmonte@upc.edu.ar
+
 ---
